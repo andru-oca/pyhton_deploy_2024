@@ -7,7 +7,7 @@ SECRET_KEY = "django-insecure-hgg8x5f6oiw&5diu7l6)(x5$+_y!z&5$70a69w(aewo*t&&4s1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://andersondeploy.pythonanywhere.com","*"]
+ALLOWED_HOSTS = ["andersondeploy.pythonanywhere.com","*"]
 
 
 # Application definition
@@ -117,8 +117,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# Security settings
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://localhost:8000',
