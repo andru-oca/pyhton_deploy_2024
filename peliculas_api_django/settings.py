@@ -7,7 +7,7 @@ SECRET_KEY = "django-insecure-hgg8x5f6oiw&5diu7l6)(x5$+_y!z&5$70a69w(aewo*t&&4s1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["andersondeploy.pythonanywhere.com"]
 
 
 # Application definition
@@ -65,10 +65,10 @@ WSGI_APPLICATION = "peliculas_api_django.wsgi.application"
 DATABASES = {
     "default" :{
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "pelicula_db",
-        "USER": "root",
+        "NAME": "andersondeploy$pelicula_db",
+        "USER": "andersondeploy",
         "PASSWORD": "codo_codo",
-        "HOST": "mysql_host",
+        "HOST": "andersondeploy.mysql.pythonanywhere-services.com'",
         "PORT": "3306",
     }
 }
@@ -127,4 +127,4 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ORIGIN_WHITELIST = ('http://0.0.0.0:8000',)
+CORS_ORIGIN_WHITELIST = ('http://0.0.0.0:8000',"andersondeploy.pythonanywhere.com")
