@@ -68,7 +68,7 @@ DATABASES = {
         "NAME": "andersondeploy$pelicula_db",
         "USER": "andersondeploy",
         "PASSWORD": "codo_codo",
-        "HOST": "andersondeploy.mysql.pythonanywhere-services.com'",
+        "HOST": "andersondeploy.mysql.pythonanywhere-services.com",
         "PORT": "3306",
     }
 }
