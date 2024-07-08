@@ -127,4 +127,4 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ORIGIN_WHITELIST = ('http://0.0.0.0:8000',"andersondeploy.pythonanywhere.com")
+CORS_ORIGIN_WHITELIST = ('http://0.0.0.0:8000',"http://andersondeploy.pythonanywhere.com")
