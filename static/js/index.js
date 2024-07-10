@@ -1,5 +1,5 @@
-const HOST = "localhost" 
-const PORT = 8000
+const HOST = "andersondeploy.pythonanywhere.com" 
+const PORT = 80
 
 const form = document.getElementById("crear_pelicula_form")
 const btn = document.getElementById("btn-post")
